@@ -1,0 +1,98 @@
+/* General */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.7;
+}
+
+/* Header */
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* Navigation */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Main Content */
+section{
+    width:85%;
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2,
+section h1{
+    color:#111;
+    margin-bottom:15px;
+}
+
+section p{
+    margin-bottom:15px;
+}
+
+/* Footer */
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+footer a{
+    color:#ffd700;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
+
+/* Responsive Design */
+@media (max-width:768px){
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    section{
+        width:95%;
+        padding:20px;
+    }
+}
